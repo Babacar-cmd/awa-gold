@@ -1,0 +1,565 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    background-image: url(logo2.jpg);
+    background-attachment: fixed;
+    background-size: contain;
+}
+header{
+text-align: center;
+border-top-left-radius: 30%;
+margin-left: 100px;
+margin-right: 100px;
+box-shadow: 5px 5px 5px;
+}
+.expérience p{
+    color: white;
+}
+.expérience1 img{
+    box-shadow: 6px 6px 5px;
+}
+.expérience2 img{
+    box-shadow: 6px 6px 5px;
+}
+.expérience2 img:hover{
+    border-radius: 50%;
+    scale: 1.1;
+    transition: 1s;
+    margin-top: 12px;
+}
+.expérience2:hover{
+    scale: 1.1;
+    transition: 1s;
+    background-color: darkcyan;
+    border-top-right-radius: 10%;
+    border-bottom-right-radius: 10%;
+    margin-right: 20px;
+} 
+.expérience1 img:hover{
+  border-radius: 50%;
+  scale: 1.1;
+  transition: 1s;
+  margin-top: 12px;
+}
+.expérience1:hover{
+    scale: 1.1;
+    transition: 1s;
+    background-color: darkcyan;
+    border-top-left-radius: 10%;
+    border-bottom-left-radius: 10%;
+}
+.moi h2{
+   color: black;
+}
+
+.photo p{
+    color: black;
+}
+.exposition h2{
+    color: black;
+}
+.section3 .témoignage img:hover{
+    border-radius: 30%;
+    color: darkcyan;
+    box-shadow: 16px 6px 6px;
+    scale: 1;
+    transition: 1s;
+}
+.témoignage h2{
+    color: black;
+}
+nav{
+    display: flex;
+    justify-content: center;
+    background-color: darkcyan;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+nav img{
+    box-shadow: 2px 4px 6px;
+    margin-bottom: 2px;
+}
+.tout {
+    display: flex;
+}
+h1{
+    margin-left: 4px;
+    text-align: center;
+    text-transform: uppercase;
+}
+marquee{
+    width: 80%;
+    margin: auto;
+}
+header .section1 .Gold img{
+    border-radius: 60%;
+    box-shadow: 3px 4px 5px;
+    color: darkcyan;
+}
+header .section1 .Gold img:hover{
+    scale: 1.2;
+    transition: 2s;
+}
+header .section3 .temoignage img{
+    border-radius: 50%;
+    border-top-right-radius: 3px;
+}
+.section1{
+    padding-top: 20px;
+}
+.section3{
+    padding-bottom: 20px;
+}
+.section2 img{
+   border-top-right-radius: 20%;
+   border-top-left-radius: 20%;
+   box-shadow: 3px 4px 3px;
+}
+ .first img{
+    border-radius: 50%;
+}
+.section2 img:hover{
+    scale: 1.1;
+    transition: 1s;
+    box-shadow: 10px 5px;
+    color: darkcyan;
+    border-radius: 0px;
+}
+.identité{
+    justify-content: center;
+}
+.identité .photo img{
+    border-end-end-radius: 40%;
+    color: black;
+    box-shadow:  1px 10px;
+}
+.identité .photo img:hover{
+    border-radius: 50%;
+    box-shadow: 10px 5px 10px;
+    color: darkcyan;
+    scale: 1.1;
+    transition: 1s;
+}
+footer{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    
+}
+input:hover{
+    color: darkcyan;
+    border-style: groove;
+    box-shadow: 1px 3px 2px;
+}
+table{
+    box-shadow: 4px 5px 6px;
+}
+table:hover{
+    scale: 1.1;
+    transition: 1s;
+    border-bottom-left-radius: 10%;
+}
+header a{
+    position: relative;
+  text-decoration: none;
+  text-transform: capitalize;
+  color: black;
+}
+header a::after{
+    z-index: -1;
+ position: absolute;
+ content: "";
+ top: 0;
+ left: 0;
+ width: 0%;
+ height: 100%;
+background-color: darkcyan;
+}
+header a:hover::after{
+    width: 100%;
+    transition: 1s;
+    scale: 1.2;
+    border-radius: 10px;
+}
+.services .Services{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} 
+.services .Services img{
+    box-shadow: 3px 5px 20px;
+    border-bottom-right-radius: 30%;
+    border-top-left-radius: 30%;
+}
+
+.Services .service1:hover{
+    scale: 1.1;
+    transition: 1s;
+    border-radius: 10%;
+}
+.Services .service1 p{
+    visibility: hidden;
+    opacity: 0;
+    color: black;
+}
+.Services .service1:hover p{
+    opacity: 1 !important;
+    visibility: visible !important;
+    color: black !important;
+}
+.services .service2 p{
+    visibility: hidden;
+    opacity: 0;
+    color: black;
+}
+.services .service2:hover p{
+    opacity: 1 !important;
+    visibility: visible !important;
+    color: black !important;
+}
+.Services .service1 img:hover{
+    border-radius: 50%;
+    margin-top: 20px;
+    scale: 1.1;
+    transition: 1s;
+}
+
+.Services .service2:hover{
+    scale: 1.1;
+    transition: 1s;
+    border-radius: 10%;
+}
+.Services .service2 img:hover{
+    border-top-right-radius: 0px;
+    border-top-left-radius: 0px;
+    border-bottom-right-radius: 30%;
+    margin-top: 20px;
+    scale: 1.1;
+    transition: 1s;
+}
+.Services .service3:hover{
+    scale: 1.1;
+    transition: 1s;
+    margin-right: 10px;
+    border-radius: 10%;
+}
+.Services .service3 img:hover{
+    margin-top: 3px;
+    border-top-left-radius: 20%;
+    border-top-right-radius: 20%;
+    border-bottom-right-radius: 0px;
+    scale: 1.1;
+    transition: 1s;
+    margin-top: 20px;
+}
+.Services .service3 p{
+    opacity: 0;
+    visibility: hidden;
+    color: black;
+}
+.services .service3:hover p{
+    visibility: visible;
+    opacity: 1;
+    color: black;
+    margin: 3px;
+}
+.service1 .ville1:hover{
+    border-radius: 50%;
+    scale: 1.2;
+    transition: 1s
+}
+.service2 .ville2:hover{
+    scale: 1.2;
+    transition: 1s;
+    border-radius: 50%;
+}
+.service3 .ville3:hover{
+    scale: 1.2;
+    transition: 1s;
+    border-radius: 50%;
+    margin-bottom: 20px;
+}
+.first a{
+    text-decoration: none;
+    position: relative;
+    color: black;
+}
+.first a::after{
+    z-index: -1;
+    position: absolute;
+    content: "";
+    width: 0%;
+    top: 0;
+    left: 0;
+    height: 100%;
+    background-color: white;
+    border-radius: 10%;
+}
+.first a:hover::after{
+    width: 100%;
+    transition: 1s;
+    scale: 1.2;
+}
+.services .Services p{
+    color: white;
+}
+footer img{
+ border-radius: 50%;
+ box-shadow: 3px 1px 7px;
+}
+.avis{
+    display: flex;
+    justify-content: center;
+}
+.avis .avis1:hover{
+    scale: 1.1;
+    transition: 1s;
+}
+.avis .avis1 p{
+    scale: 1.1;
+    transition: 1s;
+   opacity: 0;
+   visibility: hidden;
+}
+.avis .avis1:hover p{
+    opacity: 1;
+    visibility: visible;
+    scale: 1.1;
+    transition: 1s;
+}
+.avis .avis2:hover{
+    scale: 1.1;
+    transition: 1s;
+}
+.avis .avis2 p{
+    opacity: 0;
+    visibility: hidden;
+}
+.avis .avis2:hover p{
+    opacity: 1;
+    visibility: visible;
+    scale: 1.1;
+    transition: 1s;
+}
+.avis .avis3:hover{
+    scale: 1.1;
+    transition: 1s;
+}
+.avis .avis3 p{
+    opacity: 0;
+    visibility: hidden;
+}
+.avis .avis3:hover p{
+    opacity: 1;
+    visibility: visible;
+    scale: 1.1;
+    transition: 1s;
+    margin-right: 25px;
+}
+.avis2 img{
+    margin-left: 50px;
+}
+
+
+
+/* @media (max-width: 1570px) {
+    body{
+        width: 100%;
+        background-image: url(logo2.jpg);
+        background-repeat:repeat;
+        background-size: contain;    
+    }
+    nav {
+        width: 100%;
+    }
+    header{
+        margin-left: 0;
+        margin-right: 0;
+    }
+    footer{
+        width: 100%;
+    }
+    .avis{
+        margin-left: 40px;
+        margin-right: 40px;
+    }
+    .expérience1{
+        margin-left: 26px;
+    }
+    .expérience2{
+        margin-right: 70px;
+    }
+    .expérience2 p{
+        margin-right: 10px;
+    }
+    .Services{
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+}
+@media (min-width: 300px) {
+    body{
+        max-width: 100%;
+        margin-right: 0;
+        margin-left: 0;
+    }
+    header{
+        max-width: 100%;
+        margin-right: 0;
+        margin-left: 0;
+    }
+    nav{
+        max-width: 100%;
+        margin-left: 0;
+        margin-right: 0;
+    }
+} */
+
+
+@media screen and (max-width: 784px)
+{
+
+
+    body {
+        width: 100vw;
+        height: 100vh;
+    }
+
+    nav
+    {
+        position: fixed;
+        width: 100%;
+    }
+    header
+    {
+        box-shadow: none;
+    }
+
+    .section2 img
+    {
+        margin-top: 20px;
+        border-radius: none;
+        box-shadow: none;
+        border-top: 3px solid black;
+    } 
+
+
+    .services .Services img 
+    {
+        margin-left: 10px;
+        border-radius: none;
+        box-shadow: none;
+        justify-content: center;
+    }
+}
+@media screen and (max-width: 988px) {
+    header{
+        box-shadow: none;
+    }
+}
+@media screen and (max-width: 668px) {
+    .Services {
+        flex-direction: column;
+    }
+    h2{
+        text-align: center;
+    }
+    p{
+        text-align: center;
+    }
+    .avis{
+        flex-direction: column;
+    }
+    .expérience img{
+        flex-direction: column;
+    }
+    .footer{
+        align-items: center;
+        justify-content: center;
+    }
+}
+@media screen and (max-width:463) {
+    .tout{
+        flex-direction: column;
+    }
+    .expérience img{
+      justify-content: center;
+      flex-direction: column;
+    }
+    h2{
+        text-align: center;
+    }
+    p{
+        text-align: center;
+    }
+    .services img{
+      margin-top: 30px;
+
+}
+}
+@media screen and (max-width: 502px){
+    .tout{
+        flex-direction: column;
+        margin: auto;
+    }
+    h2{
+        text-align: center;
+    }
+    .exposition {
+        margin: auto;
+    }
+    p{
+        text-align: center;
+    }
+    .services{
+        margin: auto;
+    }
+    .Services img {
+        align-items: flex-start;
+    }
+    footer{
+        margin: auto;
+    }
+}
+@media screen and (max-width: 445px) {
+   h2{
+    text-align: center;
+   }    
+   p{
+    text-align: center;
+   }
+   footer{
+      align-items: stretch;    
+   }
+   .tout {
+    margin-left: 4px;
+   }
+   .services .Services{
+    margin-bottom: 50px;
+    align-items: flex-start;
+   }
+   .section1{
+    margin: auto;
+   }
+   .section2 img {
+    margin-bottom: 30px;
+   }
+   .avis img{
+    align-items: flex-end;
+   }
+}
+@media screen and (max-width: 430px) {
+    .services .Services{
+        align-items: flex-start;
+    }
+    .avis img{
+        align-items: flex-end;
+    }
+}
+@media screen and (max-width: 820) {
+    .services .Services img{
+        margin-right: 0px;
+    }
+}
